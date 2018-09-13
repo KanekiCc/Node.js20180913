@@ -1,0 +1,16 @@
+npm init -y   项目初始化   （-y默认所有配置）
+npm install xxxx  --save     安装xxxx依赖   install可以用i代替 --save可以用-S代替  --save-dev=-D
+
+学习的模板引擎
+art-template
+ejs
+jade
+
+node框架
+express
+koa2
+
+后端数据库
+mongodb
+
+mysql

@@ -1,0 +1,56 @@
+express 应用生成器
+通过如下目录安装   npm install express-generator -g
+express -h 命令可以列出所有可用的命令行选项
+
+示例，在当前工作目录中创建一个myapp的应用
+
+$ express myapp     （输入命令后自动创建myapp文件夹及内部一堆文件）
+
+create : myapp
+create : myapp/package.json
+create : myapp/app.js
+create : myapp/public
+create : myapp/public/javascripts
+create : myapp/public/images
+create : myapp/routes
+create : myapp/routes/index.js
+create : myapp/routes/users.js
+create : myapp/public/stylesheets
+create : myapp/public/stylesheets/style.css
+create : myapp/views
+create : myapp/views/index.jade
+create : myapp/views/layout.jade
+create : myapp/views/error.jade
+create : myapp/bin
+create : myapp/bin/www
+
+
+然后安装所有依赖包：
+$ cd myapp
+$ npm install
+Windows 平台使用如下命令：
+> set DEBUG=myapp & npm start
+
+然后在浏览器中打开 http://localhost:3000/ 网址就可以看到这个应用了。i
+
+通过 Express 应用生成器创建的应用一般都有如下目录结构：
+
+.
+├── app.js
+├── bin
+│   └── www
+├── package.json
+├── public
+│   ├── images
+│   ├── javascripts
+│   └── stylesheets
+│       └── style.css
+├── routes
+│   ├── index.js
+│   └── users.js
+└── views
+    ├── error.jade
+    ├── index.jade
+    └── layout.jade
+
+7 directories, 9 files

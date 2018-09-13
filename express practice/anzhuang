@@ -1,0 +1,9 @@
+安装了node.js后，创建一个目录，进入此目录并将其视为工作目录
+$   mkdir myapp
+$   cd myapp
+通过npm init 安装一个package.json文件
+$   npm init -y
+此命令是 输入几个参数 比如应用名称和版本 直接按回车接受默认设置
+entry point:
+接下来安装express到依赖列表中
+$   npm install express --save
